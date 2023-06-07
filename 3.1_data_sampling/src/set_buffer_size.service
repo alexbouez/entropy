@@ -1,0 +1,8 @@
+[Unit]
+Description=Set buffer size
+
+[Service]
+ExecStart=/boot/set_buffer_size.sh
+
+[Install]
+WantedBy=multi-user.target
