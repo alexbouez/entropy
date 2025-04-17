@@ -1,6 +1,7 @@
-[General README file.]{../README.md}
+# Section 3: Analysis of the Linux RNG Inputs
 
-# Kernel compilation for Ubuntu
+See [General README file](../README.md) for repository details.
+Here, we describe Kernel compilation for Ubuntu.
 
 ## Cloning
 

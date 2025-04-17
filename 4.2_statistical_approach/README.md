@@ -1,6 +1,6 @@
-[General README file.]{../README.md}
-
 # Section 4: Evaluation of Accumulation Functions
+
+See [General README file](../README.md) for repository details.
 
 ## Data files
 
