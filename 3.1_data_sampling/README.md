@@ -3,18 +3,11 @@
 See [General README file](../README.md) for repository details.
 Here, we describe Kernel compilation for Ubuntu.
 
-## Cloning
-
-```console
-sudo apt install git
-git clone https://gitlab.science.ru.nl/abouez/phd-prng.git
-```
-
 ## Compiling the kernel for x86
 
 > Instructions from [linux.com](linux.com/topic/desktop/how-compile-linux-kernel-0)
 
-Extract kernel from phd-prng/Projects/kernel-analysis/kernel/src/linux-6.0.5.tar.xz
+Extract kernel from linux-6.0.5.tar.xz
 
 ```console
 cd linux-6.0.5
@@ -50,7 +43,7 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS
 
 > Instructions from [raspberrypi.com](https://www.raspberrypi.com/documentation/computers/linux_kernel.html)
 
-Extract kernel from phd-prng/Projects/kernel-analysis/kernel/src/linux-rpi-5.15.tar.xz
+Extract kernel from linux-rpi-5.15.tar.xz
 (or download from [Raspberry Pi github](https://github.com/raspberrypi/linux))
 
 
